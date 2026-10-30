@@ -1,0 +1,19 @@
+|--- ALLSKY_SFC_SW_DWN_high <= 0.50
+|   |--- ALLSKY_SFC_SW_DWN_low <= 0.50
+|   |   |--- RH2M_low <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- RH2M_low >  0.50
+|   |   |   |--- class: 0
+|   |--- ALLSKY_SFC_SW_DWN_low >  0.50
+|   |   |--- RH2M_low <= 0.50
+|   |   |   |--- class: 2
+|   |   |--- RH2M_low >  0.50
+|   |   |   |--- class: 0
+|--- ALLSKY_SFC_SW_DWN_high >  0.50
+|   |--- RH2M_high <= 0.50
+|   |   |--- RH2M_mid <= 0.50
+|   |   |   |--- class: 0
+|   |   |--- RH2M_mid >  0.50
+|   |   |   |--- class: 0
+|   |--- RH2M_high >  0.50
+|   |   |--- class: 1

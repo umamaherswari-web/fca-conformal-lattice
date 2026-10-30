@@ -1,0 +1,15 @@
+rule,blocks_recurring
+IF T2M_high,5
+IF RH2M_high,5
+IF WS2M_high,5
+IF ALLSKY_SFC_SW_DWN_high,5
+IF RH2M_mid,5
+IF T2M_mid,5
+IF ALLSKY_SFC_SW_DWN_mid,5
+IF WS2M_mid,5
+IF RH2M_low,5
+IF ALLSKY_SFC_SW_DWN_low,4
+IF T2M_low AND WS2M_low,4
+IF T2M_low,1
+IF WS2M_low,1
+IF RH2M_high AND ALLSKY_SFC_SW_DWN_low,1

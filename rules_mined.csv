@@ -1,0 +1,16 @@
+rule,then,objects,purity,lift,blocks_recurring
+IF RH2M_high AND ALLSKY_SFC_SW_DWN_low AND WS2M_high,rain=High,46,0.761,2.28,5
+IF RH2M_high AND ALLSKY_SFC_SW_DWN_low AND WS2M_mid,rain=High,54,0.741,2.22,4
+IF T2M_low AND ALLSKY_SFC_SW_DWN_low AND WS2M_mid,rain=High,32,0.719,2.16,1
+IF RH2M_high AND ALLSKY_SFC_SW_DWN_low,rain=High,141,0.716,2.15,4
+IF T2M_high AND RH2M_low AND WS2M_mid,rain=Low,42,0.714,2.14,2
+IF T2M_mid AND RH2M_high AND ALLSKY_SFC_SW_DWN_low,rain=High,45,0.711,2.13,2
+IF T2M_high AND RH2M_low AND ALLSKY_SFC_SW_DWN_high,rain=Low,64,0.703,2.11,1
+IF RH2M_low AND ALLSKY_SFC_SW_DWN_high AND WS2M_high,rain=Low,43,0.698,2.09,2
+IF T2M_mid AND RH2M_high AND WS2M_mid,rain=High,36,0.694,2.08,0
+IF T2M_low AND RH2M_high AND ALLSKY_SFC_SW_DWN_low,rain=High,74,0.689,2.07,3
+IF T2M_high AND ALLSKY_SFC_SW_DWN_high AND WS2M_mid,rain=Low,32,0.688,2.06,3
+IF RH2M_low AND ALLSKY_SFC_SW_DWN_high AND WS2M_low,rain=Low,51,0.686,2.06,0
+IF RH2M_low AND ALLSKY_SFC_SW_DWN_high,rain=Low,138,0.681,2.04,2
+IF RH2M_low AND WS2M_mid,rain=Low,75,0.667,2.0,1
+IF T2M_low AND ALLSKY_SFC_SW_DWN_low,rain=High,100,0.66,1.98,2

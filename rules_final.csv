@@ -1,0 +1,11 @@
+rule,then,objects,support,purity,lift,blocks_recurring
+IF ALLSKY_SFC_SW_DWN_mid,rain=Med,252,0.354,0.381,1.14,5
+IF T2M_mid,rain=Low,242,0.34,0.351,1.05,5
+IF WS2M_high,rain=Low,241,0.339,0.357,1.07,5
+IF RH2M_mid,rain=Med,241,0.339,0.407,1.22,5
+IF T2M_high,rain=Low,236,0.332,0.39,1.17,5
+IF RH2M_low,rain=Low,235,0.331,0.604,1.81,5
+IF WS2M_mid,rain=Med,234,0.329,0.376,1.13,5
+IF ALLSKY_SFC_SW_DWN_high,rain=Low,228,0.321,0.601,1.8,5
+IF T2M_low AND WS2M_low,rain=High,149,0.21,0.383,1.15,4
+IF RH2M_high AND ALLSKY_SFC_SW_DWN_low,rain=High,141,0.198,0.716,2.15,1
