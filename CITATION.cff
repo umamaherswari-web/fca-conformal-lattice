@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Conformal three-way decisions on concept lattices with exact concept covers"
+authors:
+  - family-names: Thathappagaari
+    given-names: Uma Maherswari
+    affiliation: "Vellore Institute of Technology"
+  - family-names: S
+    given-names: Kaspar
+    affiliation: "Vellore Institute of Technology"
+license: MIT
